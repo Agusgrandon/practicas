@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="shortcut icon" href="./img/foto1.jfif">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Practicas</title>
+</head>
+
+<body>
+    <header>
+        <h1>TITULO</h1>
+        <nav>
+            <!-- 
+             ol: define una lista ordenada
+             ul: define una lista sin orden
+             li: define un articulo de la lista -->
+            <ul>
+                <li><a class="link" href="./fotos.html">Fotos y videos</a></li>
+                <!-- se pone un link, y para que se abra en otra pestaña -->
+                <li><a class="link" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <!-- para que lleve directo al video o maps -->
+                <!-- <li><a class="link" href="./fotos.html#local">Mapas</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <div>
+            <p class="fotoDeFondo">Foto de fondo</p>
+        </div>
+        <br>
+        <!--br: es para dar salto de linea. punto y aparte
+            hr: coloca una linea horizontal
+            em: es para hacer enfasis, coloca la letra en cursiva
+            strong: me lo coloca en negrita -->
+        <h2>Tablas</h2>
+        <table border="2" cellpadding="15" cellspacing="5">
+            <!-- titulares -->
+            <thead>
+                <tr>
+                    <th>remeras</th>
+                    <th>talle</th>
+                    <th>colores</th>
+                </tr>
+            </thead>
+            <!-- datos de la tabla -->
+            <tbody>
+                <tr>
+                    <td>manga corta</td>
+                    <td>5</td>
+                    <td>rojo</td>
+                </tr>
+                <tr>
+                    <td>manga larga</td>
+                    <td>8</td>
+                    <td>azul</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Formularios</h3>
+        <!-- el action determina como se envia la informacion
+             get: la info viaja de forma visible
+             post: la info viaja de forma invisible
+             <input type="submit" value"registrarme" (le cambia el valor)>
+             required: te salta que completes el formulario -->
+        <form action="" method="post">
+            <input type="text" placeholder="Ingresa tu nombre" name="nombre">
+            <br>
+            <input type="number" placeholder="Ingresa tu edad" name="edad">
+            <br>
+            <input type="tel" placeholder="Ingresa tu telefono" name="telefono">
+            <br>
+            <div>
+                <h4>sexo</h4>
+                <p>mujer</p>
+                <input type="radio" value="mujer" name="sexo">
+                <p>hombre</p>
+                <input type="radio" value="hombre" name="sexo">
+            </div>
+            <div>
+                <p>Acepta terminos y condiciones</p>
+                <input type="checkbox" name="acepta" value="si">
+            </div>
+            <!-- desplegable -->
+            <h5>Nacionalidad</h5>
+            <select name="nacionalidad" id="">
+                <option value="1">Argentina</option>
+                <option value="2">Chile</option>
+                <option value="3">Peru</option>
+            </select>
+            <input type="submit">
+        </form>
+<!-- rectangulos -->
+<div class="amarillo">rectangulo amarillos</div>
+
+    </main>
+    <footer>
+        pie de pagina
+    </footer>
+
+</body>
+
+</html>

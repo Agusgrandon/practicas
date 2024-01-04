@@ -1,0 +1,74 @@
+/* bordes ( border: solid black 5px;)
+   negrita: font-weight: bold;
+   tamaño: font-size: 20px;
+   estilo de letra: font-family: ;
+   interlineado: line-height: 1.6;
+   foto de fondo: background-repeat: repeat -x, repeat -y; / background-repeat: no-repeat; background-position: right center; / background-size:cover;
+   px: es la unidad que usan las pantallas;
+   porcentaje: tomando en cuenta que 16px es 100%;
+   viewport: responsive;
+   1 content: el espacio para el texto;
+   2 padding: separacion entre el borde y contenido de la pagina;
+   3 border: el limite entre el elemento y el espacio exterior;
+   4 margin: separacion entre el borde y el afuera de la caja (top,right,bottom,left);
+   */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size:50px;
+    border: solid green 5px;
+    font-family: 'Bungee Spice', sans-serif;
+    display: inline-block;
+}
+.link{
+    color: aquamarine;
+    text-decoration: none;
+    
+}
+/* ul li {} */
+ul{
+    list-style-type: none;
+    display: block;
+}
+.fotoDeFondo{
+    /* display: block
+       display: inline-block: me deja colocar alto y ancho, si no, solo respeta el alto y ancho del parrafo
+       display: none; me desaparece el contenido
+       bordes:
+       dotted: borde con puntos;
+       dashed: borde con linea;
+       solid: en negrita;
+       double: borde con dos lineas;
+       groove: solo en negrita la linea de arriba;
+       ridge: solo en negrita la linea de abajo;
+       inset: las dos lineas de la izquierda;
+       outset: las dos lineas de la derecha;
+       none: sin nada;
+       hidden: sin nada; */   
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
+    background-image: url('../img/foto1.jfif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+/* overflow: 
+   overflow: hidde; (esconde lo que sobra de la caja)
+   overflow: scroll; (aparece para ir para abajo y que aparesca todo el texto)
+   overflow: auto; (solo genera la barra en el lado que es necesario el scroll)
+   postion: relative (relativo a la posicion inicial); fixed (queda fijo y se mueve con la pagina); sticky (acompaña a la pagina cuando pasas por ahi)) */
+
+.amarillo{
+    height: 150px;
+    width: 250px;
+    background-color: yellowgreen;
+    border: solid black 5px;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+}
