@@ -14,3 +14,14 @@ print(saludo2)
 #tambien se puede asi
 edad_de_usuario = int(input("Ingresa tu edad: "))
 print("Tenes ",edad_de_usuario," años")
+
+#mostrar por consola la frase 
+descartes = input("descartes dijo: ")
+conclusion = "Descartes dijo: " + descartes
+print(conclusion)
+#tambien se puede asi
+print("Descartes dijo: \"Pienso luego existo\"")
+#salto de linea
+print("uno\ndos\ntres")
+#salto de tabulacion
+print("uno\tDos\tTres")
