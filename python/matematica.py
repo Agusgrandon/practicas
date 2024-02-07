@@ -35,3 +35,20 @@ print("El precio del terreno es: ", precioTerreno)
 # >= mayor o igual que 
 # == igual que 
 # != distinto que 
+
+# Y / AND : conjuncion
+# 0 / OR : disyuncion simple 
+# NO : negacion
+
+#porcentaje
+precio = 500
+
+# 500_ 100%
+#  x_ 21 % = 500 * 21 / 100
+aumentoIva = precio * 21 / 100
+
+precio_final = precio + aumentoIva #o precio + (precio * 0.21) ó precio * 1.21
+
+mensaje = f"el precio es de {precio} se aplico iva {aumentoIva} quedo un total de {precio_final}"
+
+print("factura", mensaje)
