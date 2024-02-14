@@ -52,3 +52,13 @@ precio_final = precio + aumentoIva #o precio + (precio * 0.21) ó precio * 1.21
 mensaje = f"el precio es de {precio} se aplico iva {aumentoIva} quedo un total de {precio_final}"
 
 print("factura", mensaje)
+
+# Jerarquia de operadores:
+# ()
+# *
+# * // / %
+# +-
+# < > etc
+# not
+# and 
+# or 
